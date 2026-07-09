@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://secquoia.group/sitemap.xml
