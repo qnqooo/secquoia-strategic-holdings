@@ -18,7 +18,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          grep -Fq 'aggy-embed.js?v=1.0.3' index.html
-          grep -Fq 'aggy-embed.js?v=1.0.3' 404.html
+          grep -Fq 'aggy-embed.js?v=1.0.4' index.html
+          grep -Fq 'aggy-embed.js?v=1.0.4' 404.html
           grep -Fq 'data-aggy-crypto-profile="E2EE/PQC"' index.html
           grep -Fq 'data-aggy-crypto-profile="E2EE/PQC"' 404.html
